@@ -1,9 +1,8 @@
 {
   "admin_server": {
-    "listen_url": "127.0.0.1:3333",
-    "use_tls": false,
-    "trusted_origins": []
-  },
+  "listen_url": "0.0.0.0:$PORT",
+  "use_tls": false
+  }，
   "phish_server": {
     "listen_url": "0.0.0.0:8080",
     "use_tls": false
@@ -17,4 +16,5 @@
     "level": "info"
   }
 }
+
 
